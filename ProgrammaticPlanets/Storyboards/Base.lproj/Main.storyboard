@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -58,7 +57,7 @@
                     <navigationItem key="navigationItem" title="Our Planets" largeTitleDisplayMode="always" id="9jM-sB-bMt">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="o7s-0t-nle">
                             <connections>
-                                <segue destination="hh8-Na-WHi" kind="presentation" id="44y-sZ-JDe"/>
+                                <segue destination="hh8-Na-WHi" kind="presentation" modalPresentationStyle="fullScreen" id="44y-sZ-JDe"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

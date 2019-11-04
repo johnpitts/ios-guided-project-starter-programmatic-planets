@@ -9,6 +9,7 @@
 import Foundation
 
 class PlanetController {
+    
     var planets: [Planet] {
         var result = [Planet(name: "Mercury"),
                       Planet(name: "Venus"),
@@ -20,6 +21,7 @@ class PlanetController {
                       Planet(name: "Neptune")]
         
         let shouldShowPluto = UserDefaults.standard.bool(forKey: .shouldShowPlutoKey)
+        
         if shouldShowPluto {
             result.append(Planet(name: "Pluto"))
         }

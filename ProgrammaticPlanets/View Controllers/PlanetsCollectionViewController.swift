@@ -37,5 +37,6 @@ class PlanetsCollectionViewController: UICollectionViewController {
     // MARK: - Action Handlers
     
     @IBAction func unwindToPlanetsCollectionViewController(_ sender: UIStoryboardSegue) {
+        
     }
 }
